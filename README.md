@@ -2,6 +2,8 @@
 
 This is a solution to the [Hangman game challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/hangman-game-rsQiSVLGWn).
 
+![Design preview for the Hangman game coding challenge](./preview.jpg)
+
 ## Table of contents
 
 - [Overview](#overview)
