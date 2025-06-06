@@ -33,6 +33,16 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page.
 - Navigate the entire game only using their keyboard.
 
+### Expected behaviour
+
+- You can make the default screen the main menu or the in-game board. Note that we're using the in-game design for the design screenshot, so if you choose the main menu, it won't match up in the design comparison slider. This isn't a big deal, but it is something worth considering. We recommend using the in-game page as the default for solution submission so that the screenshot matches and then switching your code to make the main menu the default screen for new players.
+- Pick a random word from the chosen category to start a game. You'll need to work out the spacing for words and when to break to a new line, as some names/titles are (intentionally) long.
+- If the player guesses a letter correctly, fill in all relevant spaces and disable the letter on the keyboard.
+- If the player guesses incorrectly, disable the letter on the keyboard and reduce the health meter. The health meter should empty after eight wrong guesses. The player loses at this point, and the menu appears.
+- Selecting "play again" on the menu starts a new game with the same category. Selecting "new category" navigates to the "pick a category" screen. Quitting navigates back to the main menu.
+- Players should never be shown the same name/title multiple times if they play more than one game in a visit. The JSON data has a "selected" boolean to help you filter already played options.
+- Clicking the hamburger menu during a game should show the "paused" menu.
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:

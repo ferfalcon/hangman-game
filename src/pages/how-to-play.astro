@@ -9,4 +9,25 @@ import Layout from '../layouts/Layout.astro';
 <Layout>
     <h1>How to play</h1>
 	<Welcome />
+    <ol>
+        <li>
+            <b>Choose a category</b>
+            First, choose a word category, like animals or movies. 
+            The computer then randomly selects a secret word from that 
+            topic and shows you blanks for each letter of the word.
+        </li>
+        <li>
+            <b>Guess letters</b>
+            Take turns guessing letters. The computer fills in the 
+            relevant blank spaces if your guess is correct. If it's 
+            wrong, you lose some health, which empties after eight 
+            incorrect guesses.
+        </li>
+        <li>
+            <b>Win or lose</b>
+            You win by guessing all the letters in the word before your 
+            health runs out. If the health bar empties before you guess 
+            the word, you lose.
+        </li>
+    </ol>
 </Layout>
